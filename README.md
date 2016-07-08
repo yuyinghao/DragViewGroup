@@ -2,7 +2,7 @@
 支持控件自由滑动，并且交换控件的位置。
 ***
 ##效果图
-![Mou icon]()
+![Mou icon](https://github.com/yuyinghao/DragViewGroup/blob/master/show.gif)
 ##支持使用适配器设置子元素
 `DragViewGroup.setAdapter(BaseAdapter);`
 ##拖动动画
