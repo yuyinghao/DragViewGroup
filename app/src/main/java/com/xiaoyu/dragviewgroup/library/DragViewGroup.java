@@ -40,7 +40,7 @@ public class DragViewGroup extends ViewGroup {
     private static final long DRAGDURATION = 300;   //长按的时间
 
     public DragViewGroup(Context context) {
-        this(context, null, 0);
+        this(context, null);
     }
 
     public DragViewGroup(Context context, AttributeSet attrs) {
