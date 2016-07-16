@@ -8,7 +8,7 @@
 ##拖动动画
 可以支持拖动动画：
 
-`DragViewGroup.setAnimationCallBack(new DragViewGroup.AnimationCallBack() {
+<pre>DragViewGroup.setAnimationCallBack(new DragViewGroup.AnimationCallBack() {
             @Override
             public long getDuration() {
                 return 200;
@@ -31,7 +31,8 @@
                         ObjectAnimator.ofFloat(view, "alpha", 0.7f, 1));
                 return set;
             }
-        });`
+        });
+        </pre>
 ##子元素调换位置回掉
 可以设置子元素调换位置的监听：
 
